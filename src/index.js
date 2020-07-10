@@ -3,7 +3,7 @@ const { response } = require('express');
 const server = express ();
 
 server.get('/teste', (req, resp) =>{
-    resp.send('Mudei a API');
+    resp.send('Mudando e mudando API');
 });
 
 server.listen (3000, ()  => {
