@@ -5,4 +5,4 @@ const TaskController = require ('../controller/TaskController');
 
 router.post('/', TaskController.create);
 
-module.exports.router;
+module.exports = router;
